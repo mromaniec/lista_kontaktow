@@ -35,5 +35,10 @@ public class MainActivity extends AppCompatActivity {
             Log.d("DB", k.toString());
         }
 
+        //nowa wersja metody
+        public void aktualizujKontakt(Kontakt kontakt){
+            db.execSQL("UPDATE imi
+        }
+
     }
 }

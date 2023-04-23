@@ -47,8 +47,13 @@ public class Kontakt {
     }
 
 
-    public String toString(String imie, String nazwisko, String telefon) {
-       return imie + " " + nazwisko + " " + telefon ;
-    }
 
+    @Override
+    public String toString() {
+        return "Kontakt{" +
+                "imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", telefon='" + telefon + '\'' +
+                '}';
+    }
 }
